@@ -94,7 +94,7 @@
       },
       {
         "name": "move",
-        "command": "copy",
+        "command": "copy", // Windows環境でのコピーコマンド macOSやLinuxでは"cp"を使用
         "args": [
           "%DOCFILE%.pdf",
           "out"
@@ -102,7 +102,7 @@
       },
       {
         "name": "delete",
-        "command": "del",
+        "command": "del", // Windows環境での削除コマンド macOSやLinuxでは"rm"を使用
         "args": [
           "/q",
           "out",
